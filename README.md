@@ -16,8 +16,9 @@ That's it ! ✌
 
 ## SCREENSHOTS
 **Enabled**
-
+![](https://github.com/stevealexandre/HideYoutubeShorts/blob/master/extension_enabled.png)
 **Disabled**
+![](https://github.com/stevealexandre/HideYoutubeShorts/blob/master/extension_disabled.png)
 
 ## TROUBLESHOOTING
 It can happen that the extension is decollarated or seems not working on your page. Just be sure the extension is active (red extension icon) and refresh your youtube page. If it's still not working, raise a bug ticket following the process bellow.
