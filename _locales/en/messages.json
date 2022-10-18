@@ -1,0 +1,11 @@
+{
+    "desc": {
+        "message": "You do not want to see Shorts video in your subscription feed ? This extension is designed just for that !"
+    },
+    "hide": {
+        "message": "Hide Shorts"
+    },
+    "show": {
+        "message": "Display Shorts"
+    }
+}

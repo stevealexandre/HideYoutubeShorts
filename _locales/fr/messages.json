@@ -1,0 +1,11 @@
+{
+    "desc": {
+        "message": "Tu ne veux plus voir les vidéos Shorts dans ton fil d'abonnement ? Alors cette extension est faite juste pour ça !"
+    },
+    "hide": {
+        "message": "Masquer les Shorts"
+    },
+    "show": {
+        "message": "Afficher les Shorts"
+    }
+}
