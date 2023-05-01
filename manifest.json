@@ -1,43 +1,36 @@
 {
-	"manifest_version": 3,
-	"name": "Hide Youtube Shorts",
-	"version": "1.0.0",
+    "manifest_version": 3,
+    "name": "Hide Youtube Shorts",
+    "version": "1.1.0",
 
-	"action": {
-		"default_icon": {
-			"16": "on16.png",
-			"32": "on32.png",
-			"48": "on48.png",
-			"128": "on128.png"
-		},
-		"default_title": "__MSG_hide__"
-	},
-	"default_locale": "en",
-	"description": "__MSG_desc__",
-	"icons": {
-		"16": "on16.png",
-		"32": "on32.png",
-		"48": "on48.png",
-		"128": "on128.png"
-	},
+    "action": {
+        "default_icon": {
+            "16": "on16.png",
+            "32": "on32.png",
+            "48": "on48.png",
+            "128": "on128.png"
+        },
+        "default_title": "__MSG_hide__"
+    },
+    "default_locale": "en",
+    "description": "__MSG_desc__",
+    "icons": {
+        "16": "on16.png",
+        "32": "on32.png",
+        "48": "on48.png",
+        "128": "on128.png"
+    },
 
-	"background": {
-		"service_worker": "background.js"
-	},
-	"content_scripts": [
-		{
-			"matches": [
-				"https://www.youtube.com/*"
-			],
-			"js": [
-				"main.js"
-			]
-		}
-	],
-	"homepage_url": "https://twitter.com/stalexlife",
-	"offline_enabled": false,
-	"permissions": [
-		"storage",
-		"management"
-	]
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://www.youtube.com/*"],
+            "js": ["main.js"]
+        }
+    ],
+    "homepage_url": "https://twitter.com/stalexlife",
+    "offline_enabled": false,
+    "permissions": ["storage", "management"]
 }
